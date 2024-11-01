@@ -6,6 +6,7 @@
 
 import http from 'http';
 
+//Creating a web server with call back function
 const server = http.createServer((req,res) =>{
     if(req.url ==='/'){
         res.write('Hello world')
